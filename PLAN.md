@@ -1,3 +1,6 @@
 # How to Initialize a New Git Repository with VS Code
 
 Before you can initialize a local repository, Git needs to be installed on your device. First, open your browser and search download git. Find Git - Install and choose the recommended installer that suits your operating system. You can check if the download was successful by typing in the VS Code terminal git --version.
+
+
+To begin, you’ll need to configure Git with a name and email address. It’s recommended that you use the same email as the one connected to your GitHub account. Type git config -global user.name "Your Name", and git config --global user.email "your email". After, you’ll want to open source control in VS Code from the activity bar. Click on the initialize repository button. Displayed will be a list of untracked or changed files, which you will want to stage by selecting the plus icon when you hover over them. When the appropriate files are staged for changes, a commit message should be prepared. It should be a quick and concise summary of what changes have been made. When you are ready for your first commit, click the commit button. Your first commit will now be saved locally to main. 
